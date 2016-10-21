@@ -11,7 +11,7 @@ var should = chai.should();
 chai.use(chaiHttp);
 
 
-describe('Heros', function() {
+describe('Heroes', function() {
 
   Hero.collection.drop();
 
